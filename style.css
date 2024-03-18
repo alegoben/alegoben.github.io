@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #fff;
+
+}
+#header{
+    width: 100%;
+    height: 100vh; 
+    
+}
+.container{
+    padding: 10px 10%;
+
+}
+nav{
+    display: flex;
+    align-items:baseline;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background: gray;
+    width: 100%;
+    height: 50px;
+    position: center;
+    
+    
+
+}
+nav ul li{
+    display: inline-table;
+    list-style: none;
+    margin: 10px 20px;
+    padding-left: 20px;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: goldenrod;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+    
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+    
+}
+nav ul li a:hover{
+    color: goldenrod;
+}
+.header-text{
+    margin-top: 15%;
+    font-size: 20px;
+}
+.header-text h1{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: gold;
+
+}
+#tag{
+    font-weight: 1000;
+    font-size: 45px;
+    color: greenyellow;
+}
+
+/* -----------------about---------------*/
+
+#about{
+    padding: 80px 0;
+    color: beige;
+
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+.row2{
+    display: block;
+    justify-content: space-between;
+    
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+    flex-basis: 20%;
+
+}
+.about-col-2-r1{
+    flex-basis: 55%;
+}
+.about-col-1{
+    flex-basis: 42%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.5s;
+
+}
+.about-col-1:hover img{
+    transform: scale(1.1);
+
+}
+.about-col-2{
+    flex-basis: 55%;
+    color: #fff;
+}
+.about-col-1-r1 img{
+    width: 437px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+.about-col-1-r1:hover img{
+    transform: scale(1.1);
+
+}
+.about-col-1-r2 img{
+    width: 437px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+.about-col-1-r2:hover img{
+    transform: scale(1.1);
+}
+.sub-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: bisque;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin:  20px 0;
+    border-style: dashed;
+    border: 1pt brown;
+    border-radius: 15px;
+}
+th td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    border-radius: 15px;
+    
+}
+
+th{
+    background-color: gold;
+    color: white;
+    font-size: larger;
+    text-align: left;
+    
+
+    
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+.s_title{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: 500;
+
+}
+/* -------------- module------------*/
+.section{
+    margin: 40px 0;
+}
+.section img{
+    border-radius: 10px;
+    width: auto;
+    margin-left: 200px;
+}
+.section b{
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.section h2{
+    margin-top: 20px;
+
+   
+}
+.section h4{
+    font-style: italic;
+    color: mediumorchid;
+    margin-top: 20px ;
+}
+.btn{
+    display: flex;
+    margin: auto auto;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 14px 50px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+
+
+}
+.btn:hover{
+    background: maroon;
+}
+ol li{
+    margin-left: 60px;
+}
+ol{
+    margin-bottom: 40px;
+}
+ul{
+    margin-bottom: 40px;
+}
+
+ul li{
+    margin-left: 60px;
+}
+.section p{
+    margin: 20px 0;
+}
+figcaption{
+    margin-left: 150px;
+    color: lawngreen;
+}
+#calc{
+    margin: 10px 50px;
+    
+}
+.examp{
+    margin: 20px 50px;
+}
+.examp h3{
+    
+    font-style: italic;
+    color: mediumpurple;
+}
+.examp img{
+    width: auto;
+    margin-left: 20px;
+}
+.exp {
+    font-style: italic;
+    
+    color: palevioletred;
+    margin: 20px 0;
+    
+
+}
+#space{
+    margin: 300px;
+}
